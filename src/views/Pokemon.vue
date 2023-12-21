@@ -39,7 +39,7 @@ const formatStatName = (statName) => {
             {{ capitalizeFirstLetter(formatStatName(statName)) }} :
           </div>
           <div class="flex items-center w-64">
-            <div class="bg-gray-200 h-5 w-52 rounded-full">
+            <div class="bg-gray-200 h-5 w-48 rounded-full">
               <div
                 :class="{
                   'bg-green-600': value >= 90,
